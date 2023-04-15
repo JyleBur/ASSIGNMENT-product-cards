@@ -1,0 +1,50 @@
+.background-img {
+    background-image: url(img/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    text-align: center;
+}
+
+.first-row img {
+    width: 100%;
+    height: 25em;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.second-row img {
+    width: 100%;
+    height: 25rem;
+}
+
+.first-row>.card {
+    margin-right: 5rem;
+}
+
+p {
+    font-family: Rye;
+}
+
+h2 {
+    font-family: Rye;
+}
+
+h6 {
+    margin-bottom: -12px;
+}
